@@ -1,0 +1,29 @@
+{
+  "name": "@keggy-data/data",
+  "version": "1.0.0",
+  "description": "Open source football data for the king-kev app - clubs, footballers, and game data",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "football",
+    "soccer",
+    "data",
+    "clubs",
+    "footballers",
+    "king-kev"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+
